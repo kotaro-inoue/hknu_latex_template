@@ -1,6 +1,6 @@
 # HKNU English Thesis LaTeX Template
 
-This is an unofficial LaTeX template for Hankyong National University thesis. 
+This is an unofficial LaTeX template for Hankyong National University thesis.  [\[Sample\]](https://github.com/kotaro-inoue/hknu_latex_template/blob/main/sample.pdf) 
 Nobody made LaTeX templates, so I made it.  
 This template is made for English manuscripts, but you can modify to Korean style easily.
 
