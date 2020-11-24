@@ -1,0 +1,48 @@
+\documentclass[11pt,a4paper]{report}
+\usepackage{hknu}
+\graphicspath{{../fig/}} % please set your figure path
+
+%% Useful Macros of hknu.sty
+%% Please use \see instead of \cite
+%% \mathvec{A} = \boldsymbol{A}
+%% \mathmat{A} = \mathrm{\mathbf{A}}
+
+%% Global Variables
+\newcommand{\degree}{Ph.D.} % Ph.D. or Master
+\newcommand{\myname}{English Name}
+\newcommand{\mykrname}{한국어 이름}
+\newcommand{\mydept}{Department of Something}
+\newcommand{\mykrtitle}{한국어 제목}
+\newcommand{\mytitle}{English Title}
+\newcommand{\advisor}{Super Advisor}
+\newcommand{\advisorkr}{교수님}
+\newcommand{\submityear}{2020}
+\newcommand{\submitdate}{December \submityear}
+
+%% Document
+\begin{document}
+\pagenumbering{roman}
+\include{front_cover} %% Autogen 
+\include{back_cover}  %% Autogen 
+\include{inner_cover} %% Autogen 
+\include{signature}
+\include{abstract}
+\begin{spacing}{1.5}
+	\tableofcontents
+\end{spacing}
+\thispagestyle{empty} \newpage
+\setcounter{page}{1}
+\listoftables \newpage
+\listoffigures \newpage
+\include{abbreviations}
+
+\pagenumbering{arabic}
+\include{introduction}
+% Please include your tex files
+\include{conclusion}
+\printbibliography[title={Bibliography}]
+\addcontentsline{toc}{chapter}{Bibliography}
+\include{summary_kr}
+\include{acknowledgements}
+
+\end{document}

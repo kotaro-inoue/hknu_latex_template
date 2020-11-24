@@ -1,0 +1,8 @@
+*.pdf
+!sample.pdf
+!fig/*.pdf
+!fig/*/*.pdf
+cite
+*docx
+test.tex
+tmp

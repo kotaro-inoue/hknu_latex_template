@@ -1,0 +1,6 @@
+*
+!.latexmkrc
+!.gitignore
+!*.tex
+!*.sty
+!*.bib
